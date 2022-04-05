@@ -15,7 +15,7 @@ extension UIView {
     
     @discardableResult
     
-    func anchor(top: NSLayoutYAxisAnchor?, leading: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, trailing: NSLayoutXAxisAnchor?, padding: UIEdgeInsets = .zero, size: CGSize = .zero) -> AnchoredConstraints {
+    final func anchor(top: NSLayoutYAxisAnchor?, leading: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, trailing: NSLayoutXAxisAnchor?, padding: UIEdgeInsets = .zero, size: CGSize = .zero) -> AnchoredConstraints {
         
         translatesAutoresizingMaskIntoConstraints = false
         var anchoredConstraints = AnchoredConstraints()
@@ -49,7 +49,7 @@ extension UIView {
         return anchoredConstraints
     }
     
-    func fillSuperview(padding: UIEdgeInsets = .zero) {
+    final func fillSuperview(padding: UIEdgeInsets = .zero) {
         translatesAutoresizingMaskIntoConstraints = false
         
         if let superviewTopAnchor = superview?.topAnchor {
@@ -69,7 +69,7 @@ extension UIView {
         }
     }
     
-    func centerInSuperview(size: CGSize = .zero) {
+    final func centerInSuperview(size: CGSize = .zero) {
         translatesAutoresizingMaskIntoConstraints = false
         
         if let superviewCenterXAnchor = superview?.centerXAnchor {

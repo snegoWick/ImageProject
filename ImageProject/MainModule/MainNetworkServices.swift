@@ -11,9 +11,9 @@ protocol MainNetworkServicesProtocol {
     func getImageFromUrl(completion: @escaping (Result<UIImage, Error>) -> Void)
 }
 
-class MainNetworkServices: MainNetworkServicesProtocol {
+final class MainNetworkServices: MainNetworkServicesProtocol {
     func getImageFromUrl(completion: @escaping (Result<UIImage, Error>) -> Void) {
-        guard let url = URL(string: "https://img3.goodfon.ru/original/2518x1721/7/7a/priroda-nebo-oblaka-more-plyazh-2327.jpg") else { return }
+        guard let url = URL(string: "https://images.unsplash.com/photo-1649080697402-358916a61b4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80") else { return }
         let session = URLSession.shared
         session.dataTask(with: url) { data, _, error in
             if let error = error {

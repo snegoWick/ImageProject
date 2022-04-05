@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+final class DetailViewController: UIViewController {
     
     private var detailView: DetailView { return self.view as! DetailView }
     var presenter: DetailPresenterProtocol!

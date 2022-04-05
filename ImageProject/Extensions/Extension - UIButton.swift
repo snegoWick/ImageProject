@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIButton {
-    class func setupButton(title: String, buttonColor: UIColor, cornerRadius: CGFloat, fontOfSize: CGFloat) -> UIButton {
+    class final func setupButton(title: String, buttonColor: UIColor, cornerRadius: CGFloat, fontOfSize: CGFloat) -> UIButton {
         let button = UIButton(type: .system)
         button.setTitle(title, for: .normal)
         button.setTitleColor(.black, for: .normal)

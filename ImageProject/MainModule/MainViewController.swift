@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+final class MainViewController: UIViewController {
     
     var presenter: MainPresenterProtocol!
     private var mainView: MainView { return self.view as! MainView }

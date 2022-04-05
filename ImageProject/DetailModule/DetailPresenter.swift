@@ -16,7 +16,7 @@ protocol DetailPresenterProtocol: AnyObject {
     func getImage()
 }
 
-class DetailPresenter: DetailPresenterProtocol {
+final class DetailPresenter: DetailPresenterProtocol {
     
     weak var view: DetailViewProtocol?
     var router: RouterProtocol?

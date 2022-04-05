@@ -12,7 +12,7 @@ protocol AssemblyBuilderProtocol {
     func createDetailModule(image: UIImage?, router: RouterProtocol) -> UIViewController
 }
 
-class ModuleBuilder: AssemblyBuilderProtocol {
+final class ModuleBuilder: AssemblyBuilderProtocol {
     
     func createMainModule(router: RouterProtocol) -> UIViewController {
         let view = MainViewController()

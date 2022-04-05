@@ -19,7 +19,7 @@ protocol MainPresenterProtocol: AnyObject {
     func tapImage(image: UIImage?)
 }
 
-class MainPresenter: MainPresenterProtocol {
+final class MainPresenter: MainPresenterProtocol {
     
     weak var view: MainViewProtocol?
     var router: RouterProtocol?

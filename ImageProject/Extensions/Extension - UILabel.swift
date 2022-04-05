@@ -8,7 +8,7 @@
 import UIKit
 
 extension UILabel {
-    class func setupLabel(text: String?, textColor: UIColor, fontSize: CGFloat) -> UILabel {
+    class final func setupLabel(text: String?, textColor: UIColor, fontSize: CGFloat) -> UILabel {
         let label = UILabel()
         label.lineBreakMode = .byWordWrapping
         label.text = text
