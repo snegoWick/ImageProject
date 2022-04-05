@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  WeatherProject
+//  ImageProject
 //
 //  Created by Aleksandr Makarov on 02.04.2022.
 //

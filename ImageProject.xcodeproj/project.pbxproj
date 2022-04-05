@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		7475DBEB27F8A318002841E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DBEA27F8A318002841E0 /* AppDelegate.swift */; };
 		7475DBED27F8A318002841E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DBEC27F8A318002841E0 /* SceneDelegate.swift */; };
-		7475DBEF27F8A318002841E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DBEE27F8A318002841E0 /* ViewController.swift */; };
-		7475DBF227F8A318002841E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7475DBF027F8A318002841E0 /* Main.storyboard */; };
+		7475DBEF27F8A318002841E0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DBEE27F8A318002841E0 /* MainViewController.swift */; };
 		7475DBF427F8A319002841E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7475DBF327F8A319002841E0 /* Assets.xcassets */; };
 		7475DBF727F8A319002841E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7475DBF527F8A319002841E0 /* LaunchScreen.storyboard */; };
+		7475DBFF27F8A52B002841E0 /* Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DBFE27F8A52B002841E0 /* Anchors.swift */; };
+		7475DC0327F8ABFC002841E0 /* Extension - UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC0227F8ABFC002841E0 /* Extension - UIColor.swift */; };
+		7475DC0527F8ADD6002841E0 /* Extension - UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC0427F8ADD6002841E0 /* Extension - UILabel.swift */; };
+		7475DC0727F8B01A002841E0 /* Extension - UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC0627F8B01A002841E0 /* Extension - UIButton.swift */; };
+		7475DC0927F8B9EE002841E0 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC0827F8B9EE002841E0 /* MainPresenter.swift */; };
+		7475DC0B27F8BA1B002841E0 /* MainNetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC0A27F8BA1B002841E0 /* MainNetworkServices.swift */; };
+		7475DC0F27F9ADE1002841E0 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC0E27F9ADE1002841E0 /* ModuleBuilder.swift */; };
+		7475DC1127F9B278002841E0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC1027F9B278002841E0 /* MainView.swift */; };
+		7475DC1327F9F2BF002841E0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC1227F9F2BF002841E0 /* DetailViewController.swift */; };
+		7475DC1627F9F33D002841E0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC1527F9F33D002841E0 /* DetailView.swift */; };
+		7475DC1827F9FC42002841E0 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC1727F9FC42002841E0 /* DetailPresenter.swift */; };
+		7475DC1A27FAD0DA002841E0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475DC1927FAD0DA002841E0 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7475DBE727F8A318002841E0 /* WeatherProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7475DBE727F8A318002841E0 /* ImageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7475DBEA27F8A318002841E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7475DBEC27F8A318002841E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7475DBEE27F8A318002841E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7475DBF127F8A318002841E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7475DBEE27F8A318002841E0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7475DBF327F8A319002841E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7475DBF627F8A319002841E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7475DBF827F8A319002841E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7475DBFE27F8A52B002841E0 /* Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchors.swift; sourceTree = "<group>"; };
+		7475DC0227F8ABFC002841E0 /* Extension - UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension - UIColor.swift"; sourceTree = "<group>"; };
+		7475DC0427F8ADD6002841E0 /* Extension - UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension - UILabel.swift"; sourceTree = "<group>"; };
+		7475DC0627F8B01A002841E0 /* Extension - UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension - UIButton.swift"; sourceTree = "<group>"; };
+		7475DC0827F8B9EE002841E0 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		7475DC0A27F8BA1B002841E0 /* MainNetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNetworkServices.swift; sourceTree = "<group>"; };
+		7475DC0E27F9ADE1002841E0 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		7475DC1027F9B278002841E0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7475DC1227F9F2BF002841E0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7475DC1527F9F33D002841E0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7475DC1727F9FC42002841E0 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		7475DC1927FAD0DA002841E0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +62,7 @@
 		7475DBDE27F8A317002841E0 = {
 			isa = PBXGroup;
 			children = (
-				7475DBE927F8A318002841E0 /* WeatherProject */,
+				7475DBE927F8A318002841E0 /* ImageProject */,
 				7475DBE827F8A318002841E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +70,66 @@
 		7475DBE827F8A318002841E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7475DBE727F8A318002841E0 /* WeatherProject.app */,
+				7475DBE727F8A318002841E0 /* ImageProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7475DBE927F8A318002841E0 /* WeatherProject */ = {
+		7475DBE927F8A318002841E0 /* ImageProject */ = {
 			isa = PBXGroup;
 			children = (
 				7475DBEA27F8A318002841E0 /* AppDelegate.swift */,
 				7475DBEC27F8A318002841E0 /* SceneDelegate.swift */,
-				7475DBEE27F8A318002841E0 /* ViewController.swift */,
-				7475DBF027F8A318002841E0 /* Main.storyboard */,
+				7475DC0E27F9ADE1002841E0 /* ModuleBuilder.swift */,
+				7475DC1927FAD0DA002841E0 /* Router.swift */,
+				7475DC0027F8A544002841E0 /* Extensions */,
+				7475DC0127F8A564002841E0 /* MainModule */,
+				7475DC1427F9F2C5002841E0 /* DetailModule */,
 				7475DBF327F8A319002841E0 /* Assets.xcassets */,
 				7475DBF527F8A319002841E0 /* LaunchScreen.storyboard */,
 				7475DBF827F8A319002841E0 /* Info.plist */,
 			);
-			path = WeatherProject;
+			path = ImageProject;
+			sourceTree = "<group>";
+		};
+		7475DC0027F8A544002841E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7475DBFE27F8A52B002841E0 /* Anchors.swift */,
+				7475DC0227F8ABFC002841E0 /* Extension - UIColor.swift */,
+				7475DC0427F8ADD6002841E0 /* Extension - UILabel.swift */,
+				7475DC0627F8B01A002841E0 /* Extension - UIButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7475DC0127F8A564002841E0 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				7475DBEE27F8A318002841E0 /* MainViewController.swift */,
+				7475DC1027F9B278002841E0 /* MainView.swift */,
+				7475DC0827F8B9EE002841E0 /* MainPresenter.swift */,
+				7475DC0A27F8BA1B002841E0 /* MainNetworkServices.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		7475DC1427F9F2C5002841E0 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				7475DC1227F9F2BF002841E0 /* DetailViewController.swift */,
+				7475DC1527F9F33D002841E0 /* DetailView.swift */,
+				7475DC1727F9FC42002841E0 /* DetailPresenter.swift */,
+			);
+			path = DetailModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7475DBE627F8A318002841E0 /* WeatherProject */ = {
+		7475DBE627F8A318002841E0 /* ImageProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7475DBFB27F8A319002841E0 /* Build configuration list for PBXNativeTarget "WeatherProject" */;
+			buildConfigurationList = 7475DBFB27F8A319002841E0 /* Build configuration list for PBXNativeTarget "ImageProject" */;
 			buildPhases = (
 				7475DBE327F8A318002841E0 /* Sources */,
 				7475DBE427F8A318002841E0 /* Frameworks */,
@@ -82,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = WeatherProject;
+			name = ImageProject;
 			productName = WeatherProject;
-			productReference = 7475DBE727F8A318002841E0 /* WeatherProject.app */;
+			productReference = 7475DBE727F8A318002841E0 /* ImageProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7475DBE227F8A317002841E0 /* Build configuration list for PBXProject "WeatherProject" */;
+			buildConfigurationList = 7475DBE227F8A317002841E0 /* Build configuration list for PBXProject "ImageProject" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7475DBE627F8A318002841E0 /* WeatherProject */,
+				7475DBE627F8A318002841E0 /* ImageProject */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +184,6 @@
 			files = (
 				7475DBF727F8A319002841E0 /* LaunchScreen.storyboard in Resources */,
 				7475DBF427F8A319002841E0 /* Assets.xcassets in Resources */,
-				7475DBF227F8A318002841E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +194,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7475DBEF27F8A318002841E0 /* ViewController.swift in Sources */,
+				7475DBEF27F8A318002841E0 /* MainViewController.swift in Sources */,
 				7475DBEB27F8A318002841E0 /* AppDelegate.swift in Sources */,
+				7475DC1327F9F2BF002841E0 /* DetailViewController.swift in Sources */,
+				7475DC0727F8B01A002841E0 /* Extension - UIButton.swift in Sources */,
+				7475DC0F27F9ADE1002841E0 /* ModuleBuilder.swift in Sources */,
+				7475DC1827F9FC42002841E0 /* DetailPresenter.swift in Sources */,
+				7475DC0927F8B9EE002841E0 /* MainPresenter.swift in Sources */,
+				7475DC0527F8ADD6002841E0 /* Extension - UILabel.swift in Sources */,
+				7475DC1627F9F33D002841E0 /* DetailView.swift in Sources */,
+				7475DC0B27F8BA1B002841E0 /* MainNetworkServices.swift in Sources */,
+				7475DC1127F9B278002841E0 /* MainView.swift in Sources */,
+				7475DBFF27F8A52B002841E0 /* Anchors.swift in Sources */,
+				7475DC1A27FAD0DA002841E0 /* Router.swift in Sources */,
+				7475DC0327F8ABFC002841E0 /* Extension - UIColor.swift in Sources */,
 				7475DBED27F8A318002841E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7475DBF027F8A318002841E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7475DBF127F8A318002841E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7475DBF527F8A319002841E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +349,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 385JD4STUM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherProject/Info.plist;
+				INFOPLIST_FILE = ImageProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ImageProject;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,11 +361,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TeamX.WeatherProject;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamX.ImageProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,10 +378,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 385JD4STUM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherProject/Info.plist;
+				INFOPLIST_FILE = ImageProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ImageProject;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,18 +390,18 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TeamX.WeatherProject;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamX.ImageProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7475DBE227F8A317002841E0 /* Build configuration list for PBXProject "WeatherProject" */ = {
+		7475DBE227F8A317002841E0 /* Build configuration list for PBXProject "ImageProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7475DBF927F8A319002841E0 /* Debug */,
@@ -348,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7475DBFB27F8A319002841E0 /* Build configuration list for PBXNativeTarget "WeatherProject" */ = {
+		7475DBFB27F8A319002841E0 /* Build configuration list for PBXNativeTarget "ImageProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7475DBFC27F8A319002841E0 /* Debug */,
